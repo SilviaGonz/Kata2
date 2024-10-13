@@ -6,7 +6,7 @@ public class Grades {
     private final String Asignatura;
 
     public Grades(String num_Estudiante, String calificacion, String asignatura) {
-        Num_Estudiante = num_Estudiante;
+        Num_Estudiante = Integer.parseInt(num_Estudiante);
         Calificacion = calificacion;
         Asignatura = asignatura;
     }
