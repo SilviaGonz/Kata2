@@ -5,7 +5,7 @@ public class Grades {
     private final String Calificacion;
     private final String Asignatura;
 
-    public Grades(int num_Estudiante, String calificacion, String asignatura) {
+    public Grades(String num_Estudiante, String calificacion, String asignatura) {
         Num_Estudiante = num_Estudiante;
         Calificacion = calificacion;
         Asignatura = asignatura;
